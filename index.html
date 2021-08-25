@@ -7,11 +7,12 @@
         <title>Amanda Bull</title>
         <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
         <link rel="icon" href="./images/favicon_ab.ico" sizes="any" type="image/svg+xml">
+        <script src="css/portfolio.css" defer></script>
     </head>
 
 
 
-     <!-- Bootstrap CSS testing -->
+     <!-- Bootstrap CSS-->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
      <title>Amanda Bull</title>
@@ -76,9 +77,78 @@
 
         <div id="About">
            <p style="text-align:center;"><img src="./images/finalaboutme.png" alt="About Me"></p>
+
+             <!-- Images used to open the lightbox -->
+<div class="row">
+    <div class="column">
+      <img src="./images/img1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/img2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/img3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./images/img4.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="./images/img1_wide.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="./images/img2_wide.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="./images/img3_wide.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="./images/img4_wide.png" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="./images/img1.png" onclick="currentSlide(1)" alt="Group Photo 1">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="./images/img2.png" onclick="currentSlide(2)" alt="Group Photo 2">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="./images/img3.png" onclick="currentSlide(3)" alt="Group Photo 3">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="./images/img4.png" onclick="currentSlide(4)" alt="Group Photo 4">
+      </div>
+    </div>
+  </div>
         </div> 
 
-         <!--About section-->
+         <!--Github section-->
 
          <div id="GitHub">
             <a href="https://github.com/amandabull">
