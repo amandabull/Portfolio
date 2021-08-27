@@ -35,10 +35,4 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block"; // This displays the image in the slideshow
     dots[slideIndex - 1].className += " active"; // This adds the active styling to the dot associated with the image
-<<<<<<< HEAD
-}
-
 // Final version ready to commit 
-=======
-}
->>>>>>> edc14a2d1ad8fba44a970648ed5aa345fb0461b9
