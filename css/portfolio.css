@@ -363,7 +363,6 @@ footer {
     -webkit-animation: movePopup 5s; /* Animation for 5 seconds for Safari 4.0-8.0 */
     animation: movePopup 5s; /* Animation set for 5 seconds */
 }
-<<<<<<< HEAD
 
 /* movePopup animation moves the button from off the right side of the screen to its fixed location on the viewport */
 @keyframes movePopup {
