@@ -197,12 +197,8 @@ footer {
 
 /* Screens that are 576px and smaller will not display the background video */
 @media screen and (max-width: 576px) {
-    #video1 {
-        display: url("images/portfolio-header.png");
-    }
-    #video2 {
-        display: url("images/finalaboutme.png");
-    }
+#Typing_Video {
+    width: 100%;
 }
 
 /***** End of Video Styling *****/
