@@ -1,4 +1,4 @@
-# View my ePortfolio 
-- [Click Here](amandabull.github.io)
+# ePortfolio 
+- [Click Here](amandabull.github.io/)
 
-Explore a little more about me and view a sample video of me teaching
+View a sample video of me teaching and learn a little bit more about what I have to offer
