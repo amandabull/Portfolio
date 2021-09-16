@@ -117,6 +117,7 @@ footer {
     padding: 1%; /* This gives the footer padding that is equal to 2% of the width of the element's area */
     background-color: black;
     color: white;
+    display: block;
 }
 /***** End of General Styling *****/
 
