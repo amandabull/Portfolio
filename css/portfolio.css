@@ -64,10 +64,6 @@ p:hover {
 /* Center class - this applies to all centered text */
 .center {
     text-align: center; /* This center aligns the text */
-    margin-left: auto;
-    margin-right: auto;
-    display: block
-    }
 }
 
 /* Center align elements hover effect - This only affects the quote, github link, and footer */
